@@ -1,45 +1,25 @@
-const RegisterPerfil = {
+const PerfilRegister = {
     fields: [
         {
+            input: "Carrera",
+            name: "carrera",
+            placeholder: "Ing. en Sistemas",
+            type: "text",
+          },
+          {
+            
+            input: "ID Estudiante",
+            name: "id_Estudiante",
+            placeholder: "32165461",
+            type: "num",
+          },
+          {  
             input: "Nombre(S)",
-            name: "nombre",
-            placeholder: "Nombre(S)",
-            type: "text",
-          },
-
-          {
-            input: "Apellidos(s)",
-            name: "apellido",
-            placeholder: "Apellidos(s)",
-            type: "text",
-          },
-
-          {
-            name: "correo",
-            input: "Correo Electrónico",
-            placeholder: "Correo Electrónico",
-            type: "text",
-          },
-
-          { 
-            input: "Contraseña",
-            name: "contraseña",
-            placeholder: "••••••••••",
-            type: "password",
-          },
-
-          {
-            name: "contraseñaConfirmacion",
-            input: "Confirmar Contraseña",
-            placeholder: "••••••••••",
-            type: "password",
-          },
-
-          
-
-         
-
+            name: "telefono",
+            placeholder: "32165461",
+            type: "num",
+          }
     ]
 }
 
-export default RegisterPerfil;
+export default PerfilRegister;

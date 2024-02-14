@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import RegisterPerfil from '../../Information/PerfilRegister';
+import RegisterPerfil from '../../Information/RegisterInputs';
 import Button from '../Atoms/Button';
 import Span from '../Atoms/Span';
 import Img from '../Atoms/Img';
