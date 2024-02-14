@@ -5,7 +5,7 @@ import Button from '../Atoms/Button';
 import Span from '../Atoms/Span';
 import Img from '../Atoms/Img';
 import Parrafo from '../Atoms/Parrafos';
-import Alert from '@mui/material/Alert';
+import MessageError from '../Atoms/MessageError';
 import '../Organisms/Registro.css'
 const Registro = () => {
     const [SuccessMessage, setSuccessMessage] = useState(false);
@@ -97,7 +97,9 @@ const Registro = () => {
                                         name={date.name}
                                         placeholder={date.placeholder}
                                     />
-                                    <ErrorMessage name={date.name} component={() => (<Alert variant="outlined" severity="error"> {errors[date.name]} </Alert>)} />
+
+                                    <ErrorMessage name={date.name} component={() => (<MessageError message={errors[date.name]} /> )} />
+                                    
                                 </div>
 
                             )
