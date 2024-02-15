@@ -100,7 +100,7 @@ const RegistroDos = () => {
                                     <button>Hobbies</button>
                                     <button>Peliculas/Series</button>
                                 </div>
-                                
+
                                 <ErrorMessage name="intereses" component={() => (<MessageError message={errors["intereses"]} />)} />
                             </div>
                             <div className='field'>
@@ -108,19 +108,35 @@ const RegistroDos = () => {
                                 <div className='Redes'>
                                     <div className='IconoInput'>
                                         <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
-                                    
+
                                     <div className='IconoInput'>
-                                        <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <img src="src/assets/multimedia/img/Facebook (icon — Colour).svg" alt="Instagram" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
-                                    
+
                                     <div className='IconoInput'>
-                                        <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <img src="src/assets/multimedia/img/Layer 1.svg" alt="Instagram" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
                                 </div>
+                                <div className='field'>
+                                    <label htmlFor="acercaDeMi">Acerca de mí</label>
+                                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder='[Campo para compartir una breve descripción sobre ti]'>
+
+                                    </textarea>
+                                </div>
+                                <div className='field dotted'>
+                                    <button>
+                                        <img src="src/assets/multimedia/img/Male User.svg" alt="icon " />
+                                    </button>
+                                    <div >
+                                        <label htmlFor="archivo">Selecionar archivo</label>
+                                        <input type="text" />
+                                    </div>
+                                </div>
+                                <hr />
                             </div>
                         </div>
                         <Button>Guardar cambios</Button>

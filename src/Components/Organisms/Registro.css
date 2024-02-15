@@ -9,7 +9,7 @@
 }
 
 .formulario {
-    width: 30%;
+    width: 500px;
     height: fit-content;
     /* border: solid #303061; */
     display: flex;
@@ -21,6 +21,12 @@
     padding-bottom: 30px;
 
 
+}
+
+.formulario hr{
+    margin: 10px 0px 10px 0px;
+    width: 245px;
+    border: 1px solid #C5C5C5;
 }
 
 .InteresesInputs{
@@ -46,10 +52,17 @@
 }
 
 .Redes{
+    margin-top: 5px;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+}
+
+.Redes input{
+    margin: 0 !important;
+    outline: none;
 }
 
 .IconoInput{
@@ -60,6 +73,7 @@
 
 .IconoInput input{
     width: 60%;
+    outline: none;
 }
 
 .container-header {
@@ -73,10 +87,66 @@
     /* este es el contenedor del input */
     display: flex;
     flex-direction: column;
-    width: 225px;
+    width: 70%;
     height: auto;
     margin-top: 5px;
     color: #929292;
+}
+
+.field textarea{
+    margin-top: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    color: #383838;
+    border-radius: 4px;
+    width: 100% !important;
+}
+
+.dotted{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    border-style: dashed !important;
+    border: 1px solid #C5C5C5;
+    border-radius: 6px;
+    gap: 5px;
+    padding: 10px 10px 15px 10px;
+}
+.container-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dotted div{
+    width: 80%;
+}
+
+.dotted button{
+    background-color: #C5C5C5;
+    width: 52px;
+    height: 52px;
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dotted img{
+    filter:contrast(10%);
+    width: 31px;
+    height: 31px;
+}
+
+.dotted input{
+    width: 80% !important;
 }
 
 .formulario input {
