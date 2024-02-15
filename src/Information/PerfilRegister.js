@@ -24,14 +24,14 @@ const RegisterPerfil = {
           { 
             input: "Contraseña",
             name: "contraseña",
-            placeholder: "••••••••",
+            placeholder: "••••••••••",
             type: "password",
           },
 
           {
             name: "contraseñaConfirmacion",
             input: "Confirmar Contraseña",
-            placeholder: "••••••••",
+            placeholder: "••••••••••",
             type: "password",
           },
 

@@ -7,6 +7,7 @@ import Img from '../Atoms/Img';
 import Parrafo from '../Atoms/Parrafos';
 import MessageError from '../Atoms/MessageError';
 import '../Organisms/Registro.css'
+import IconGoogle from '../Atoms/IconGoogle';
 const Registro = () => {
     const [SuccessMessage, setSuccessMessage] = useState(false);
     return (
@@ -21,15 +22,9 @@ const Registro = () => {
                     contraseñaConfirmacion: ""
                 }}
 
-
-
-
                 validate={(valores) => {  //validate es Una función que se ejecuta para validar los valores del formulario.
                     //arreglo de 
                     let errores = {}; //se utiliza para almacenar los mensajes de error 
-
-
-
 
                     // Validacion nombre
                     if (!valores.nombre) {
@@ -85,31 +80,36 @@ const Registro = () => {
                                 y participar en eventos emocionantes.</Parrafo>
                         </div>
 
-                        {RegisterPerfil.fields.map((date, index) => {
+                        <div className='container-inputs'>
+                            {RegisterPerfil.fields.map((date, index) => {
 
-                            return (
+                                return (
 
-                                <div key={index} className='field'>
-                                    <label htmlFor={date.name}> {date.input} </label>
-                                    <Field
-                                        type={date.type}
-                                        id={date.name}
-                                        name={date.name}
-                                        placeholder={date.placeholder}
-                                    />
+                                    <div key={index} className='field'>
+                                        <label htmlFor={date.name}> {date.input} </label>
+                                        <Field
+                                            type={date.type}
+                                            id={date.name}
+                                            name={date.name}
+                                            placeholder={date.placeholder}
+                                        />
 
-                                    <ErrorMessage name={date.name} component={() => (<MessageError message={errors[date.name]} /> )} />
-                                    
-                                </div>
+                                        <ErrorMessage name={date.name} component={() => (<MessageError message={errors[date.name]} />)} />
 
-                            )
-                        })
-                        }
+                                    </div>
 
-                        <Button>Registrate</Button>
-                        <Span>¿Ya tienes una cuenta? Inicia sesión aquí.</Span>
+                                )
+                            })
+                            }
+                        </div>
 
-                        <Button>Registrarme con Google</Button>
+                        <div className='checbox-field'>
+                            <label className='checkbox-label' htmlFor="checkbox"> Al registrarte, aceptas nuestros Términos de Servicio y Política de Privacidad. </label>
+                            <div><Field type="checkbox" id="checkbox" name="checkbox"  /></div>
+                        </div>
+
+                        <Button> <IconGoogle />Registrarme con Google</Button>
+                        <Span> ¿Ya tienes una cuenta? <a href="#" className='negrita'>Inicia sesión aquí.</a> </Span>
                     </Form>
 
                 )}

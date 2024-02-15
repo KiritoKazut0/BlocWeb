@@ -5,12 +5,16 @@ import styled from 'styled-components'
 const Button = styled.button`
    width: 225px;
    height: 41px;
-   border-radius: 4px;
+   border-radius: 12px;
    border: none;
    background: #242436;
    color: white;
-   font-size: 13px;
+   font-size: 12px;
    margin: 10px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 `;
 
 
