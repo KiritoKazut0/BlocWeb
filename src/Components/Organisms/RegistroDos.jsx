@@ -133,7 +133,46 @@ const RegistroDos = () => {
                                     </button>
                                     <div >
                                         <label htmlFor="archivo">Selecionar archivo</label>
-                                        <input type="text" />
+                                        <div className='uploadFile'>
+                                            <label htmlFor="archivo">Selecionar archivo</label>
+                                            <input type="file" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div className="field">
+                                    <label htmlFor="datos_Ubicacion">Datos de Ubicación</label>
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="calle">Calle</label>
+                                            <input type="text" placeholder='Calle Cárcamos' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="no_interior">No. Int.</label>
+                                            <input type="text" placeholder='123' />
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="colonia">Colonia</label>
+                                            <input type="text" placeholder='Arbide' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="no_interior">C. P.</label>
+                                            <input type="text" placeholder='12345' />
+                                        </div>
+                                    </div>
+
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="estado">Estado</label>
+                                            <input type="text" placeholder='Chiapas' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="país">País</label>
+                                            <input type="text" placeholder='México' />
+                                        </div>
                                     </div>
                                 </div>
                                 <hr />
