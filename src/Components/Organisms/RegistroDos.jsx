@@ -100,7 +100,7 @@ const RegistroDos = () => {
                                     <button>Hobbies</button>
                                     <button>Peliculas/Series</button>
                                 </div>
-                                
+
                                 <ErrorMessage name="intereses" component={() => (<MessageError message={errors["intereses"]} />)} />
                             </div>
                             <div className='field'>
@@ -108,19 +108,74 @@ const RegistroDos = () => {
                                 <div className='Redes'>
                                     <div className='IconoInput'>
                                         <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
-                                    
+
                                     <div className='IconoInput'>
-                                        <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <img src="src/assets/multimedia/img/Facebook (icon — Colour).svg" alt="Instagram" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
-                                    
+
                                     <div className='IconoInput'>
-                                        <img src="src/assets/multimedia/img/Instagram (icon — Colour).svg" alt="Instagram" />
-                                        <input placeholder='' type="text" />
+                                        <img src="src/assets/multimedia/img/Layer 1.svg" alt="Instagram" />
+                                        <input placeholder='@tucuenta' type="text" />
                                     </div>
                                 </div>
+                                <div className='field'>
+                                    <label htmlFor="acercaDeMi">Acerca de mí</label>
+                                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder='[Campo para compartir una breve descripción sobre ti]'>
+
+                                    </textarea>
+                                </div>
+                                <div className='field dotted'>
+                                    <button>
+                                        <img src="src/assets/multimedia/img/Male User.svg" alt="icon " />
+                                    </button>
+                                    <div >
+                                        <label htmlFor="archivo">Selecionar archivo</label>
+                                        <div className='uploadFile'>
+                                            <label htmlFor="archivo">Selecionar archivo</label>
+                                            <input type="file" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div className="field">
+                                    <label htmlFor="datos_Ubicacion">Datos de Ubicación</label>
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="calle">Calle</label>
+                                            <input type="text" placeholder='Calle Cárcamos' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="no_interior">No. Int.</label>
+                                            <input type="text" placeholder='123' />
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="colonia">Colonia</label>
+                                            <input type="text" placeholder='Arbide' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="no_interior">C. P.</label>
+                                            <input type="text" placeholder='12345' />
+                                        </div>
+                                    </div>
+
+                                    <div className='datos1'>
+                                        <div>
+                                            <label htmlFor="estado">Estado</label>
+                                            <input type="text" placeholder='Chiapas' />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="país">País</label>
+                                            <input type="text" placeholder='México' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
                             </div>
                         </div>
                         <Button>Guardar cambios</Button>

@@ -3,14 +3,16 @@ import styled from 'styled-components'
 
 
 const Button = styled.button`
-   width: 225px;
-   height: 41px;
-   border-radius: 12px;
+   width: ${props => (props.icons ?" 100px": props.settings ? "41px": "225px")};
+   height: ${props => (props.icons ? "41px": "41px")};
+   padding: ${props => (props.perfil ? "12px":props.settings? "8px": "")};
+   border-radius: ${props => (props.icons ? "4px": "12px")};
    border: none;
-   background: #959595;
-   color: #CCCCCC;
-   font-size: 12px;
-   margin: 10px 0px;
+   background: ${props => (props.icons ? "#C5C5C5": props.settings? "#C5C5C5": "#959595")};
+   color: ${props => (props.icons ? "#000000 ": "#CCCCC")};
+   font-size: ${props => (props.icons ? "14px": "12px")};
+   margin: ${props =>(props.icons ? "": "10px 0px")};
+   font-family: ${props =>(props.icons ? '"Inter", sans-serif;': "")};
    display: flex;
    align-items: center;
    justify-content: center;

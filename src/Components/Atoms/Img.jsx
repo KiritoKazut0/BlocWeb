@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Img = styled.img `
     object-fit: cover;
-    width: 35%;
+    width: ${props => (props.img ? "80%" : "35%")};
+
    
 `;
 
