@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import RegisterPerfil from '../../Information/PerfilRegister';
 import Button from '../Atoms/Button';
-import Span from '../Atoms/Span';
 import Img from '../Atoms/Img';
 import Parrafo from '../Atoms/Parrafos';
 import MessageError from '../Atoms/MessageError';
-import '../Organisms/Registro.css'
-import IconGoogle from '../Atoms/IconGoogle';
+import '../Organisms/Registro.css';
+
 const RegistroDos = () => {
     const [SuccessMessage, setSuccessMessage] = useState(false);
     return (

@@ -4,7 +4,7 @@ import "./Home.css"
 function Home(){
     return(
         <>
-            {/* Header */}
+            {/* Header: */}
             <div className="Contenido">
                 <div className="Cont-cards">
 
