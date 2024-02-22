@@ -25,13 +25,14 @@
     height: 800px;
     margin: 1% 0px;
     background-color: rgb(103, 103, 103);
+    gap: 2%;
 }
 
 .Articulo-Card{
     display: flex;
     flex-wrap: wrap;
-    background-color: #D9D9D9;
-    width: 99%;
+    background-color: #F3F3F3;
+    width: 99.7%;
     height: 400px;
     border: 1px solid #C5C5C5;
 }
@@ -44,23 +45,47 @@
 }
 
 .Contenido-Articulo div:first-child{
+    margin: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     padding-left: 2%;
     padding-top: 10px;
     height: 40px;
-    background-color: bisque;
     gap: 5px;
 }
 
-.Contenido-Articulo div:first-child div{
-    display: flex;
-    flex-direction: column;
-    padding: 0%;
+.Contenido-Articulo button{
+    margin-right: 2%;
+    width: 35px;
+    height: 15px;
+    background-color: transparent;
+    background-image: url('src/assets/multimedia/img/more_horiz.svg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    filter: contrast(100%);
+    background-position: -4px;
+    border: 0;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.Contenido-Articulo button:hover{
+    filter: contrast(0%);
 }
 
-.Contenido-Articulo div:first-child img{
+.Contenido-Articulo div div:first-child{
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.Contenido-Articulo div div div{
+    padding: 0px !important;
+}
+
+.Contenido-Articulo div div:first-child img{
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -70,15 +95,18 @@
 .Contenido-Articulo div:last-child{
     padding: 10px 2%;
     height: 30px;
-    background-color: bisque;
 }
 
 .Nombre_fecha{
-    font-family: mo;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
 }
 
 .Articulo{
-    background-color: azure;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
     padding-left: 2%;
     height: 260px;
 }
@@ -88,3 +116,38 @@
     height: 40px;
     background-color: #C5C5C5;
 }
+
+.Img-Articulo{
+    align-items: end !important;
+    width: 49%;
+    padding: 0% !important;
+    height: 100% !important;
+}
+
+.Img-Articulo img{
+    object-fit: cover;
+    width: 100% !important;
+    border-radius: 0% !important;
+    height: 95% !important;
+}
+
+.Texto-Articulo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0px !important;
+    margin: 0%;
+    width: 49%;
+    height: 100% !important;
+}
+
+.Texto-Articulo p{
+    width: 95% !important;
+    text-align: justify;
+    height: 95% !important;
+    overflow-y: scroll;
+}
+
+.Texto-Articulo p::-webkit-scrollbar {
+    width: 0px; /* Ancho del scroll */
+  }

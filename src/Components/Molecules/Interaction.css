@@ -1,0 +1,52 @@
+.interaction {
+    width: 100%;
+}
+
+.Interactions-icon{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li.icons{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: black;
+}
+
+
+/* Interactions 2: section de comentarios, compartir y likes */
+
+div.interaction-2 {
+    width: 95%;
+    padding: 0px  2.5%;
+    background-color: #CBCBCB;
+    height: 36px;
+    margin-top: 20px;
+}
+
+nav.nav-Interaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+ul.icon{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F3F3F3;
+    margin-right: 10px;
+
+}
+
+li.list-icon{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    
+}
