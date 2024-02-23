@@ -1,5 +1,6 @@
 .interaction {
     width: 100%;
+    height: auto;
 }
 
 .Interactions-icon{
@@ -13,6 +14,7 @@ li.icons{
     align-items: center;
     font-size: 11px;
     color: black;
+    background: none;
 }
 
 
@@ -24,6 +26,7 @@ div.interaction-2 {
     background-color: #CBCBCB;
     height: 36px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 nav.nav-Interaction{
@@ -35,12 +38,13 @@ nav.nav-Interaction{
 
 ul.icon{
     height: 100%;
-    width: 27%;
+    width: 38%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #F3F3F3;
+    color: #7F7F7F;
     margin-right: 10px;
+   
 
 }
 
@@ -48,5 +52,6 @@ li.list-icon{
     display: flex;
     align-items: center;
     font-size: 10px;
+
     
 }

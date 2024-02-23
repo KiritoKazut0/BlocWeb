@@ -6,7 +6,10 @@ import Span from "../Atoms/Span";
 function Perfil (){
     return (
         <>
-            <div></div>
+            <div>
+
+                
+            </div>
         </>
     );
 }

@@ -15,10 +15,10 @@ function Nav() {
                     <IconSearch></IconSearch>
                     <input placeholder="Buscar"></input>
                     </li>
-                    <li> Inicio </li>
-                    <li> Grupos </li>
-                    <li> Articulos </li>
-                    <li> Comunicados </li>
+                    <li className="options-nav"> Inicio </li>
+                    <li className="options-nav"> Grupos </li>
+                    <li className="options-nav"> Articulos </li>
+                    <li className="options-nav"> Comunicados </li>
                 </ul>
 
                 <ul className="list_2">

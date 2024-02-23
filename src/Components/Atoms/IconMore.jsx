@@ -5,6 +5,7 @@ function IconMore (){
         <>
             <MoreHorizIcon
                 sx={{
+                    background: "none",
                     
                 }}
             />
