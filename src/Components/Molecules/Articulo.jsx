@@ -1,6 +1,7 @@
 import "../Organisms/Home.css"
 import Interaction from "./Interaction";
 import { IconShare, IconMessage, IconLove } from "../Atoms/IconInteraction";
+import Interaction2 from "./Interactions2";
 function Articulo() {
     return (
         <>
@@ -34,12 +35,23 @@ function Articulo() {
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <IconLove color={"#FF0000"}/>
+                    <div className="Info-Interactivo">
+                        <div>
+                            <IconLove color={"#FF0000"} />
+                            <p> 10 reacciones </p>
+                        </div>
+                        <div>
+                            <IconMessage/>
+                            <p> 2 Comentarios </p>
+                        </div>
+                        <div>
+                            <IconShare/>
+                            <p> 0 Compartir </p>
+                        </div>
                     </div>
                 </div>
                 <div className="Barra-Interactiva">
-
+                    <Interaction2/>
                 </div>
             </div>
         </>
