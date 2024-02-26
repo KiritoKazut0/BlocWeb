@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import RegisterPerfil from '../../Information/RegisterInputs';
-import Button from '../Atoms/Button';
-import Span from '../Atoms/Span';
-import Img from '../Atoms/Img';
-import Parrafo from '../Atoms/Parrafos';
-import MessageError from '../Atoms/MessageError';
-import '../Organisms/Registro.css'
-import IconGoogle from '../Atoms/IconGoogle';
+import Button from '../../Components/Atoms/Button';
+import Span from '../../Components/Atoms/Span';
+import Img from '../../Components/Atoms/Img';
+import Parrafo from '../../Components/Atoms/Parrafos';
+import MessageError from '../../Components/Atoms/MessageError';
+import './Registro.css'
+import IconGoogle from '../../Components/Atoms/IconGoogle';
 const Registro = () => {
     const [SuccessMessage, setSuccessMessage] = useState(false);
     return (

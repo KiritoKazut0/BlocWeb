@@ -1,7 +1,7 @@
-import Parrafo from "../Atoms/Parrafos";
-import Articulo from "../Molecules/Articulo";
-import ArticleComunicado from "../Molecules/Comunicado";
-import Nav from "../Molecules/Nav";
+import Parrafo from "../../Components/Atoms/Parrafos";
+import Articulo from "../../Components/Molecules/Articulo";
+import ArticleComunicado from "../../Components/Molecules/Comunicado";
+import Nav from "../../Components/Molecules/Nav";
 import "./Home.css"
 
 function Home() {

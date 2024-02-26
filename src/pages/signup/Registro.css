@@ -86,7 +86,6 @@
 
 
 .field {
-    /* este es el contenedor del input */
     display: flex;
     flex-direction: column;
     width: 334px;
@@ -188,7 +187,6 @@
 }
 
 .formulario input {
-    /*aqui es el input */
     margin: 7px 0;
     color: #2f2f2f;
     border-radius: 4px;
@@ -202,7 +200,6 @@
 
 
 .checbox-field {
-    /* contenedor del checbox */
     width: 48%;
     padding: 0 5%;
     display: flex;
@@ -215,7 +212,6 @@
 
 
 .checbox-field .checkbox-label {
-    /* texto del checkbox */
     font-size: 10px;
     text-align: start;
     margin-left: 10px;
