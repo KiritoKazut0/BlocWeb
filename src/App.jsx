@@ -1,17 +1,13 @@
 import React from "react"
-import Registro from "./pages/signup/Registro"
-import RegistroDos from "./pages/signup/RegistroDos"
-import Articulo from "./Components/Molecules/Articulo"
 import Feed from "./pages/feed/Feed"
-import ArticleComunicado from "./Components/Molecules/Comunicado"
-import Nav from "./Components/Molecules/Nav"
+import { Profile } from "./pages/profile/Profile"
 function App() {
-
+    document.title = "SocialUP"
 
   return (
     <>
       
-      <RegistroDos/>
+      <Profile/>
 
     </>
   )
