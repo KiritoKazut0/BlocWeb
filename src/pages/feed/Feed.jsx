@@ -1,4 +1,3 @@
-import Nav from "../../Components/Molecules/Nav";
 import { Articulo } from "../../Components/Organisms/Articulo";
 import { Articulo_Comunicado } from "../../Components/Organisms/Articulo-Comunicado";
 import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
@@ -7,7 +6,6 @@ import "./Feed.css"
 function Home() {
     return (
         <>
-            <Nav/>
             <div className="Contenido">
                 <div className="Cont-Cards-Uno">
 
