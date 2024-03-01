@@ -1,11 +1,13 @@
 import { Articulo } from "../../Components/Organisms/Articulo";
 import { Articulo_Comunicado } from "../../Components/Organisms/Articulo-Comunicado";
 import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
+import { Header } from "../../Components/Organisms/Header";
 import "./Feed.css"
 
 function Home() {
     return (
         <>
+            <Header/>
             <div className="Contenido">
                 <div className="Cont-Cards-Uno">
 

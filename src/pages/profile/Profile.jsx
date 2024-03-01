@@ -2,6 +2,7 @@ import { Articulo } from "../../Components/Organisms/Articulo";
 import { Articulo_Comunicado } from "../../Components/Organisms/Articulo-Comunicado";
 import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
 import { Header } from "../../Components/Organisms/Header";
+import { User_Articulos } from "../../Components/Organisms/User-Articulos";
 import "./Profile.css"
 export function Profile() {
     return (
@@ -13,8 +14,7 @@ export function Profile() {
                     <Articulo_Evento/>
                     <Articulo_Comunicado/>
                 </div>
-                <div className="Card">
-                </div>
+                <User_Articulos/>
             </div>
         </>
     );
