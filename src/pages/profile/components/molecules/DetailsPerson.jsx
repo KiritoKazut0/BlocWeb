@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Span } from "../atoms/Span";
+import { Span } from '../Atoms/Span';
 const Name = styled.h1 `
     font-size: 2vw;
     color: #000;

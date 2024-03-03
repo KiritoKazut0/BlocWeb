@@ -11,9 +11,8 @@ export function PerfilCard() {
             <div className="informacion-perfil">
                <DetailsPerson />
                <InteresPerson />
-               <IconSocial/>
+               <IconSocial primary={"true"} sizeIcon={"2vw"} />
             </div>
-            <IconSocial primary={"true"} sizeIcon={"18px"} />
          </div>
       </>
    )
