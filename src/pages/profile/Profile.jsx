@@ -19,6 +19,8 @@ export function Profile() {
                     <Articulo_Comunicado />
                 </div>
                 <User_Articulos />
+
+                
             </div>
         </>
     );
