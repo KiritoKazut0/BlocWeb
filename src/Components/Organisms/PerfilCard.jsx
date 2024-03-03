@@ -2,7 +2,7 @@ import { IconSocial } from "../Atoms/Icons-social";
 import { DetailsPerson } from "../Molecules/DetailsPerson";
 import { InteresPerson } from "../Molecules/InteresPerson";
 import { BannerProfile } from "../Molecules/BannerProfile";
-import './PerfilCard.css'
+
 
 
 export function PerfilCard() {
