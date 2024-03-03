@@ -1,0 +1,28 @@
+.ContainerSubjectList{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    width: 100%;
+    gap: 70%;
+    margin-top: 1%;
+   
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    gap: 5%;
+    margin-right: 2%;
+}
+a{
+  font-family: Arial, sans-serif; /* Fuente sans-serif */
+  font-size: 14px; /* Tamaño de fuente */
+  font-weight: 500; /* Peso de fuente (medio) */
+  color: #6e6d6d; /* Color de fuente (gris oscuro) */
+  margin-bottom: 10px;
+}
