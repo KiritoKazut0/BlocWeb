@@ -1,14 +1,12 @@
 import React from "react"
-import { Profile } from "./pages/profile/Profile"
+import { Profile } from "./pages/profile/Profile";
 
 function App() {
-    // document.title = "SocialUP"
+    document.title = "SocialUP"
 
   return (
     <>
-
-   <Profile/>
-
+      <Profile/>
     </>
   )
 }

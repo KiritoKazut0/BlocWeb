@@ -1,19 +1,17 @@
 div.container-InteresPerson {
-    width: 45%;
-    height: 40%;
     color: #7F7F7F;
+    width: 50%;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 
 ul.list-Interes {
     list-style: none;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
+    width: 90%;
     margin-left: 5%;
-    gap: 10px;
+    gap: 1vw;
 }

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Parrafo from "../Atoms/Parrafos";
+import Parrafo from "../../../../Components/Atoms/Parrafos";
 import { Span } from '../Atoms/Span';
 const Container = styled.div`
     width: 50%;
