@@ -11,7 +11,7 @@ const Div = styled.div`
 export function Logo_Buscador(){
     return(
         <Div>
-            <Logo/>
+            <Logo src={"https://i.imgur.com/EdH0Gr8.png"}/>
             <Buscador/>
         </Div>
     )

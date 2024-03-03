@@ -1,11 +1,31 @@
 import styled from 'styled-components';
+
 const Img = styled.img`
-    height: 3vw;
+    object-fit: cover;
+    border-radius: ${({ borderRadius }) => borderRadius || '0%'};
+    width: ${({ width }) => width || '9vw'};
+    height: ${({ height }) => height || 'auto'};
+    position: ${({ position }) => position || ''} ;
+    top: ${({ top }) => top|| ''} ;
+    left: ${({ left }) => left || ''} ;
+
+
+    
 `;
-export function Logo(){
-    return(
+
+export function Logo ({ width, height, borderRadius, src, position, top, left }) {
+    return (
         <>
-            <Img src='https://i.imgur.com/EdH0Gr8.png'/>
+            <Img
+                src={src}
+                width={width}
+                height={height}
+                borderRadius={borderRadius}
+                position = {position}
+                top = {top}
+                left = {left}
+
+            />
         </>
-    )
+    );
 }

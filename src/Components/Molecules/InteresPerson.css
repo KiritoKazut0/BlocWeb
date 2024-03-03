@@ -1,0 +1,19 @@
+div.container-InteresPerson {
+    width: 45%;
+    height: 40%;
+    color: #7F7F7F;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+
+ul.list-Interes {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 5%;
+    gap: 10px;
+}

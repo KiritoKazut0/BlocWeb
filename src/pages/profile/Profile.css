@@ -1,9 +1,9 @@
 .Content{ 
     width: 100%;
-    height: fit-content;
+    height: auto;
     display: grid;
     flex-wrap: nowrap;
-    grid-template-columns: 74% 25%;
+    grid-template-columns: 74% 25% ;
 }
 .Cont-Arti{
     display: flex;

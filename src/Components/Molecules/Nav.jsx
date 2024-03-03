@@ -4,7 +4,7 @@ import { Button_Nav } from '../Atoms/Button-Nav';
 import { Icon } from '@mui/material';
 import IconSettings from '../Atoms/iconSettings';
 const Div = styled.div`
-    width: 90%;
+    width: 90%; 
     display: flex;
     justify-content: space-between;
     ul{
