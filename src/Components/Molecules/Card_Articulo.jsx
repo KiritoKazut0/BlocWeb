@@ -1,14 +1,30 @@
 import styled from 'styled-components';
+import { Image } from '../Atoms/Image';
+import { DateReciente } from './DateRecient';
 const Card = styled.div`
-    background-image: url('src/assets/multimedia/img/Frame 59.svg');
     width: 92%;
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    height: 60%;
     object-fit: cover;
+    margin: 0 4%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: end;
+
 `;
-export function Card_Articulo(){
-    return(
-        <Card>
-        </Card>
+export function CardArticulo({src}) {
+    
+    return (
+        <>
+            <Card>
+                <Image src={src}
+                    width={"100%"}
+                    height={"100%"} />
+                <DateReciente />
+            </Card>
+
+        </>
+
     )
 }

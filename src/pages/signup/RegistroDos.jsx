@@ -3,7 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import RegisterPerfil from '../../Information/PerfilRegister';
 import Button from '../../Components/Atoms/Button';
 import Img from '../../Components/Atoms/Image';
-import Parrafo from '../../Components/Atoms/Parrafos';
+import Parrafo from '../profile/components/atoms/Description';
 import MessageError from '../../Components/Atoms/MessageError';
 import './Registro.css';
 

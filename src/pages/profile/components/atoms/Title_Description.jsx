@@ -13,7 +13,7 @@ const Div = styled.div`
         font-size: 1vw;
     }
 `;
-export function TitleDescription({ title, description }){
+export function Title_Description({ title, description }){
     return(
         <Div>
             <h3> { title }</h3>

@@ -1,0 +1,8 @@
+.Buscador{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    width: 75%;
+    flex-wrap: wrap;
+}

@@ -12,7 +12,7 @@
     overflow-y: scroll;
     margin-left: 10vw !important;
     width: 80%;
-    height: 50vw;
+    height: auto;
     margin: .5vh 0px;
     gap: 1vw;
 }

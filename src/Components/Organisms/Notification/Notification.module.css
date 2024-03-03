@@ -1,0 +1,31 @@
+.ContainerNotification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #ffffff;
+    border-color: 1px solid black ;
+
+}
+.title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 65%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-right: 10%;
+}

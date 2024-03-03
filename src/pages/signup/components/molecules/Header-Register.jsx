@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Logo } from '../../../../Components/Atoms/Image';
+import { Image } from '../../../../Components/Atoms/Image';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ const Container = styled.div`
 export function Header_Register() {
     return (
         <Container>
-            <Logo/>
+            <Image/>
             <span>Únete a nuestra comunidad estudiantil</span>
             <span>Bienvenido a nuestra red social estudiantil. Regístrate ahora para conectarte con compañeros, acceder a recursos educativos
                 y participar en eventos emocionantes.</span>

@@ -1,10 +1,21 @@
-import BrushIcon from '@mui/icons-material/Brush';
 
-export function IconEdit (){
+import BrushRoundedIcon from '@mui/icons-material/BrushRounded';
+
+export function IconEdit ({position, tamaño, top, left}){
     return (
         <>
-            <BrushIcon sx={{
-
+            <BrushRoundedIcon sx={{
+                position: {position},
+                fontSize: "40px",
+                top: {top},
+                left:{left},
+                background: "#7F7F7F",
+                color: "#FFFFFF",
+                borderRadius: "100px",
+                width: "30px",
+                height: "30px",
+                padding: "5px",
+                objectFit: "none !important"
             }}/>
         </>
     );

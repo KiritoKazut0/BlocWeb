@@ -1,15 +1,12 @@
 import React from "react"
-import { Profile } from "./pages/profile/Profile"
-import { Publicacion } from "./Components/Molecules/Publicacion";
+import { Profile } from "./pages/profile/Profile";
 
 function App() {
-    // document.title = "SocialUP"
+    document.title = "SocialUP"
 
   return (
     <>
-
-   <Publicacion></Publicacion>
-
+      <Profile/>
     </>
   )
 }

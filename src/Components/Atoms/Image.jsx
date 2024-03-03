@@ -8,6 +8,8 @@ const Img = styled.img`
     position: ${({ position }) => position || ''} ;
     top: ${({ top }) => top|| ''} ;
     left: ${({ left }) => left || ''} ;
+    grid-column: 1;
+   grid-row: 1;
 
 
     

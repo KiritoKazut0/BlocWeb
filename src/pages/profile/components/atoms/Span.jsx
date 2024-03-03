@@ -5,18 +5,18 @@ const StyleSpan = styled.span `
     font-size: ${({ size }) => size || '12px'} ;
     display: block;
     font-weight: ${({ line }) => line || '400'} ;
-    margin:${({ margin }) => margin || '0'} ;
+   
+
 `;
 
-export function Span ({name, color, size, line, weight, margin} ){
+export function Span ({name, color, size, line, weight} ){
     return (
         <>
             <StyleSpan 
             color={color} 
             size = {size}
             line ={line}
-            weight= {weight}
-            margin={margin} > 
+            weight= {weight} > 
             {name} 
             </StyleSpan>
         </>
