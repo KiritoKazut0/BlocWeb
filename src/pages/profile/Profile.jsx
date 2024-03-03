@@ -10,9 +10,7 @@ export function Profile() {
     return (
         <>
             <Header />
-
             <div className="Content">
-
                 <div className="Cont-Arti">
                     <PerfilCard />
                     <DatePerson/>
