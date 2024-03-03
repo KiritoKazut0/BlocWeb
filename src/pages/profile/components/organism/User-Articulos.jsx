@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Title_Description } from '../Molecules/Title_Description';
-import { Card_Articulo } from '../Molecules/Card_Articulo';
+import { Title_Description } from '../../../../Components/Molecules/Title_Description';
+import { Card_Articulo } from '../../../../Components/Molecules/Card_Articulo';
 const Card = styled.div`
     margin: .5vh 0px;
     width: 100%;

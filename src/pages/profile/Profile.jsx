@@ -2,10 +2,10 @@ import { Articulo } from "../../Components/Organisms/Articulo";
 import { Articulo_Comunicado } from "../../Components/Organisms/Articulo-Comunicado";
 import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
 import { Header } from "../../Components/Organisms/Header";
-import { User_Articulos } from "../../Components/Organisms/User-Articulos";
-import { PerfilCard } from "../../Components/Organisms/PerfilCard";
-import { DatePerson } from "../../Components/Organisms/DatePerson";
+import { User_Articulos } from "./components/organism/User-Articulos";
+import { DatePerson } from "./components/organism/DatePerson";
 import "./Profile.css"
+import { PerfilCard } from "./components/organism/PerfilCard";
 export function Profile() {
     return (
         <>

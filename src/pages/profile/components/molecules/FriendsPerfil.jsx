@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Perfil } from '../Atoms/Perfil';
-import { Span } from '../Atoms/Span';
+import { Perfil } from '../../../../Components/Atoms/Perfil';
+import { Span } from '../atoms/Span';
 const Container = styled.div`
     width: 25vw;
     height: 100%;

@@ -1,5 +1,5 @@
-import { FriendsPerfil } from "../Molecules/FriendsPerfil";
-import { AcercaDe } from "../Molecules/AcercaDe";
+import { AcercaDe } from "../molecules/AcercaDe";
+import { FriendsPerfil } from "../molecules/FriendsPerfil";
 import styled from "styled-components";
 
 const Container = styled.div`
