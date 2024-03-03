@@ -4,6 +4,7 @@ import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
 import { Header } from "../../Components/Organisms/Header";
 import { User_Articulos } from "../../Components/Organisms/User-Articulos";
 import { PerfilCard } from "../../Components/Organisms/PerfilCard";
+import { DatePerson } from "../../Components/Organisms/DatePerson";
 import "./Profile.css"
 export function Profile() {
     return (
@@ -14,6 +15,7 @@ export function Profile() {
 
                 <div className="Cont-Arti">
                     <PerfilCard />
+                    <DatePerson/>
                     <Articulo />
                     <Articulo_Evento />
                     <Articulo_Comunicado />
