@@ -1,4 +1,4 @@
-import { Span } from "../Atoms/Span"
+import { Span } from "../../pages/profile/components/atoms/Span";
 import Parrafo from "../Atoms/Parrafos"
 import styled from 'styled-components';
 

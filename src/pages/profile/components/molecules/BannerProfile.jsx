@@ -10,8 +10,10 @@ const ContainerBanner = styled.div`
     display: flex;
     align-items: end;
     justify-content: start;
+   
     img{
         margin-left: 3vw;
+      
     }
 `;
 export function BannerProfile() {

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Perfil } from '../../../../Components/Atoms/Perfil';
-import { Span } from '../Atoms/Span';
+import { Span } from '../atoms/Span';
 import { Card_Friends } from '../atoms/Card-Friends';
 import { Card_Perfil } from '../atoms/Card-Perfil';
 import { Container_Friend } from '../atoms/Container-Friends';

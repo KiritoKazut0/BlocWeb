@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Span } from '../Atoms/Span';
+import { Span } from '../atoms/Span';
 import { Description } from '../atoms/Description';
 const Container = styled.div`
     display: flex;

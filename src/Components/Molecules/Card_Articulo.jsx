@@ -13,7 +13,7 @@ const Card = styled.div`
     align-items: end;
 
 `;
-export function Card_Articulo({src}) {
+export function CardArticulo({src}) {
     
     return (
         <>
