@@ -1,0 +1,121 @@
+div.Publicacion{
+    width:50% ;
+    height:50vh ;
+    display: flex;
+    margin-top: 50px;
+    background-color:rgba(217, 217, 217, 1);
+}
+div.Tex-Header{
+    width:100% ;
+    height:6vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    font-size: 15px;
+    
+
+}
+.Icon{
+margin-right: 40px;
+}
+.Texto{
+    font-size: 14px;
+    font-weight:bold ;
+}
+
+.Interior{
+    width:90% ;
+    height:27vh ;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.Foto{
+    width:21%;
+    height:16vh;
+    background-color: rgba(243, 243, 243, 1);
+    margin-top: 10px;
+    margin-left:5px ;
+    display: flex;
+    justify-content: center;
+}
+.Crear{
+    font-size: 12px;
+    padding-top: 8px;
+    margin-left: 8px;
+    color: rgba(146, 146, 146, 1);
+}
+
+.Camera{
+margin-top: 35px;
+color: rgba(146, 146, 146, 1);
+
+}
+.Boton-Publico{
+    width: 30%;
+ height: 38px;
+   background-color: rgba(197, 197, 197, 1);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+  border: none;
+  margin-left: 20px;
+}
+
+.Boton-Publicar{
+    width: 35%;
+    height: 38px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+  border: none;
+  margin-left: 150px;
+  background-color: rgba(197, 197, 197, 1);
+}
+.Pie{
+    width:98% ;
+    height:8vh ;
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+}
+.Todo{
+    margin-right:50px;
+    font-size: 11px;
+}
+
+.Multi{
+font-size: 10px;
+
+}
+ 
+.Image{
+    width:90%;
+    height:10%;
+    border-radius:50%;
+    margin-top: 60px;
+    
+
+    
+}
+.Column{
+    width: 5%;
+    display: flex;
+    justify-content: end;
+   
+
+}
+
+.colum-2{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+  
+
+    
+}

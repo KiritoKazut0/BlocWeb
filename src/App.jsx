@@ -1,5 +1,6 @@
 import React from "react"
 import { Profile } from "./pages/profile/Profile"
+import { Publicacion } from "./Components/Molecules/Publicacion";
 
 function App() {
     // document.title = "SocialUP"
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
 
-   <Profile/>
+   <Publicacion></Publicacion>
 
     </>
   )
