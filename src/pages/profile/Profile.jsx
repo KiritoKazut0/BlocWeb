@@ -3,15 +3,13 @@ import { Articulo_Comunicado } from "../../Components/Organisms/Articulo-Comunic
 import { Articulo_Evento } from "../../Components/Organisms/Articulo-Evento";
 import { Header } from "../../Components/Organisms/Header";
 import { User_Articulos } from "../../Components/Organisms/User-Articulos";
-import { PerfilCard } from "../../Components/Organisms/PerfilCard";
+import { PerfilCard } from "./components/organism/PerfilCard";
 import "./Profile.css"
 export function Profile() {
     return (
         <>
             <Header />
-
             <div className="Content">
-
                 <div className="Cont-Arti">
                     <PerfilCard />
                     <Articulo />

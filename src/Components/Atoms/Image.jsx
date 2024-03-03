@@ -13,7 +13,7 @@ const Img = styled.img`
     
 `;
 
-export function Logo ({ width, height, borderRadius, src, position, top, left }) {
+export function Image ({ width, height, borderRadius, src, position, top, left }) {
     return (
         <>
             <Img

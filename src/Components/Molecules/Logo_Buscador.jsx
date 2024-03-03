@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Logo } from '../Atoms/Logo';
+import { Image } from '../Atoms/Image';
 import { Buscador } from '../Atoms/Buscador';
 const Div = styled.div`
     margin-left: 1vw;
@@ -11,7 +11,7 @@ const Div = styled.div`
 export function Logo_Buscador(){
     return(
         <Div>
-            <Logo src={"https://i.imgur.com/EdH0Gr8.png"}/>
+            <Image src={"https://i.imgur.com/EdH0Gr8.png"}/>
             <Buscador/>
         </Div>
     )
