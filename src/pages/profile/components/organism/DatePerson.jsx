@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
-    height: 200px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
 `;
@@ -14,7 +14,7 @@ export function DatePerson() {
         <>
             <Container>
                 <AcercaDe />
-                 <FriendsPerfil /> 
+                <FriendsPerfil /> 
             </Container>
         </>
     )

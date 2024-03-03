@@ -1,37 +1,41 @@
 import styled from 'styled-components';
 import { Perfil } from '../../../../Components/Atoms/Perfil';
-import { Span } from '../atoms/Span';
-const Container = styled.div`
-    width: 25vw;
-    height: 100%;
-    background-color: #F3F3F3;
-`;
-
+import { Span } from '../Atoms/Span';
+import { Card_Friends } from '../atoms/Card-Friends';
+import { Card_Perfil } from '../atoms/Card-Perfil';
+import { Container_Friend } from '../atoms/Container-Friends';
 const Description = styled.div`
-    width: 85%;
-    height: 20%;
+    width: calc(100% - 2vw);
     display: flex;
     justify-content: space-between;
+    margin: 0 0 .5vw 1vw;
 `;
-
-const user = {nombre: "Joan Rosenbaum", text: "Ing. Sistemas computacionales" }
-const user2 = {nombre: "John Doe", text: "Lic. Marketing Digital" }
-
-
- export function FriendsPerfil() {
+export function FriendsPerfil() {
+    const user = { nombre: "Joan Rosenbaum", text: "Ing. Sistemas computacionales" }
+    const user2 = { nombre: "John Doe", text: "Lic. Marketing Digital" }
     return (
         <>
-            <Container>
-                <Span color='#000' size={"18px"} line={"21.78px"} name={"Amigos"}  />
-
+            <Card_Friends>
+                <Span color='#000' size={"1.5vw"} name={"Amigos"} weigth={600} margin={".5vw 0 .5vw 1vw"} />
                 <Description>
-                    <Span color='#000' size={"12px"} line={"14.52px"} name={"123 amigos"}  />
-                    <u> <Span color='#7F7F7F' size={"10px"} line={"12.1px"} name={"123 amigos"} />  </u>
+                    <Span color='#000' size={"1vw"} name={"123 amigos"} weigth={"500"} margin={"0"} />
+                    <u> <Span color='#7F7F7F' size={".8vw"} name={"Buscar amigos"} margin={"0"} />  </u>
                 </Description>
-                <Perfil usuario={user} size={".5wv"} margin={".5wv"} />
-                <br />
-                <Perfil usuario={user2} size={".5wv"}  margin={".5wv"} />
-            </Container>
+                <Container_Friend>
+                    <Card_Perfil>
+                        <Perfil usuario={user} size={".5wv"} margin={".5vw"} />
+                    </Card_Perfil>
+                    <Card_Perfil>
+                        <Perfil usuario={user2} size={".5wv"} margin={".5vw"} />
+                    </Card_Perfil>
+                    <Card_Perfil>
+                        <Perfil usuario={user} size={".5wv"} margin={".5vw"} />
+                    </Card_Perfil>
+                    <Card_Perfil>
+                        <Perfil usuario={user2} size={".5wv"} margin={".5vw"} />
+                    </Card_Perfil>
+                </Container_Friend>
+            </Card_Friends>
         </>
     )
 }
