@@ -1,16 +1,11 @@
 import React from "react"
-import Feed from "./pages/feed/Feed"
-import { Profile } from "./pages/profile/Profile"
+import { Registro } from "./pages/signup/Registro"
 function App() {
     document.title = "SocialUP"
-
   return (
     <>
-      
-      <Profile/>
-
+      <Registro/>
     </>
   )
 }
-
-export default App
+export default App;
